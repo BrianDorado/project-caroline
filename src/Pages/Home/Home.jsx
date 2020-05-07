@@ -6,16 +6,13 @@ import txt from '../../Config/text/text'
 
 import './Homes.scss'
 
-const {Header, Content} = Layout
+const { Content } = Layout
 
 export default class Home extends PureComponent {
     render() {
         return (
             <Layout>
-                <Header>
-                    Here is the Header
-                </Header>
-        <Content className='main-content' >{txt.lorem}</Content>
+                <Content className='main-content' >{txt.lorem}</Content>
             </Layout>
         );
     }
