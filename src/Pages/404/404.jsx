@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
+import {Link} from 'react-router-dom'
 import PropTypes from 'prop-types';
+import { homeRoute } from '../../Config/Navigation/routes';
 
 class PageNotFound extends PureComponent {
     render() {
@@ -8,7 +10,7 @@ class PageNotFound extends PureComponent {
                 <p>
                 Uh oh! It looks like the page you are look for cannot be found!
                 </p>
-                <p>Click here to return to the home page</p>
+                <p><Link to={homeRoute} >Click Here</Link> to return to the home page</p>
             </div>
         );
     }

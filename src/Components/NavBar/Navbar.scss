@@ -1,15 +1,18 @@
 .navbar {
     margin: auto;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
     text-align: center;
     max-width: 50vw;
+    padding: 4rem;
     h1 {
         font-family: 'Cinzel', serif;
         letter-spacing: 5px;
         font-size: 60px;
         color: white;
+        border-bottom: 3px solid white;
     }
     ul {
+        padding: 2rem;
         font-family: 'Cinzel', serif;
         font-family: 'Cardo', serif;
         font-size: 40px;

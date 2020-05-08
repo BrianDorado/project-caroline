@@ -1,10 +1,12 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
-class Perfomances extends PureComponent {
+import './Perfomances.scss'
+
+class Performances extends PureComponent {
     render() {
         return (
-          <div>
+          <div className='performances-video-container' >
             <iframe
               width="560"
               height="315"
@@ -18,8 +20,8 @@ class Perfomances extends PureComponent {
     }
 }
 
-Perfomances.propTypes = {
+Performances.propTypes = {
 
 };
 
-export default Perfomances;
+export default Performances;

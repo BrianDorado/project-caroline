@@ -1,7 +1,8 @@
 .root {
-  height: 100vh;
   background: url('./media/yurtskirt.viii.png');
+  min-height: 100vh;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 
