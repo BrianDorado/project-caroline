@@ -12,7 +12,11 @@ class Navbar extends PureComponent {
                 <h1>Brooke Larson</h1>
             <ul>
                 <li> <Link to ={homeRoute}>Home</Link> </li>
-                <li> <Link to={performancesRoute}>Perfomances</Link> </li>
+                <li> <Link>About</Link> </li>
+                <li> <Link>Publications</Link> </li>
+                <li> <Link to={performancesRoute}>Perfomance</Link> </li>
+                <li> <Link>Contact</Link> </li>
+
             </ul>
             </nav>
         );
