@@ -8,6 +8,7 @@ class Performances extends PureComponent {
         return (
           <div className='performances-video-container' >
             <iframe
+              title='Brooke Larson'
               width="560"
               height="315"
               src="https://www.youtube.com/embed/7za5-8z6d7M"
