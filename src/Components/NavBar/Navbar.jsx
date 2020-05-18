@@ -24,7 +24,7 @@ class Navbar extends PureComponent {
 }
 
 Navbar.propTypes = {
-
+// here is a comment about proptypes
 };
 
 export default Navbar;
