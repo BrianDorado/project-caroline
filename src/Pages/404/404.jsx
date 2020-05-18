@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import {Link} from 'react-router-dom'
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { homeRoute } from '../../Config/Navigation/routes';
 
 class PageNotFound extends PureComponent {
@@ -16,8 +16,8 @@ class PageNotFound extends PureComponent {
     }
 }
 
-PageNotFound.propTypes = {
+// PageNotFound.propTypes = {
 
-};
+// };
 
 export default PageNotFound;

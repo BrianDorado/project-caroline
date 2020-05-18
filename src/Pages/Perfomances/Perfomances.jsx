@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import './Perfomances.scss'
 
@@ -20,8 +20,8 @@ class Performances extends PureComponent {
     }
 }
 
-Performances.propTypes = {
+// Performances.propTypes = {
 
-};
+// };
 
 export default Performances;

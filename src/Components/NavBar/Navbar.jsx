@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import {Link} from 'react-router-dom'
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import './Navbar.scss'
 import { performancesRoute, homeRoute } from '../../Config/Navigation/routes';
@@ -23,8 +23,8 @@ class Navbar extends PureComponent {
     }
 }
 
-Navbar.propTypes = {
-// here is a comment about proptypes
-};
+// Navbar.propTypes = {
+// // here is a comment about proptypes
+// };
 
 export default Navbar;
